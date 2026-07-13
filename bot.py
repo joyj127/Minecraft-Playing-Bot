@@ -1,3 +1,4 @@
+'''
 import time
 import random
 from javascript import require, On
@@ -43,3 +44,17 @@ def on_goal_reached(*args):
 @On(bot, 'error')
 def on_error(this, err):
     print("An error occurred:", err)
+
+'''
+from grabscreen import grab_screen
+import cv2
+
+def pathing(minimap):
+    pass
+
+for i in range(100):
+    screen = grab_screen(region=(951, 522))
+    screen = cv2.cvtColor(screen, cv2.COLOR_)
+    cv2.imshow("cv2screen", screen)
+    cv2.waitKey(10)
+cv2.destroyAllWindows()
