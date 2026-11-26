@@ -1,2 +1,2 @@
 # Bot
-Bot program that plays minecraft
+Bot program that explores their surroundings in Minecraft - research experiment 
